@@ -1,7 +1,13 @@
-.App {
-  text-align: center;
+.main-content {
+  padding-top: 5rem;
+  padding-left: 1rem;
 }
 
+/* .App {
+  text-align: center;
+} */
+
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -9,7 +15,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    /* animation: App-logo-spin infinite 20s linear; */
+     animation: App-logo-spin infinite 20s linear;
   }
 }
 
@@ -35,4 +41,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
