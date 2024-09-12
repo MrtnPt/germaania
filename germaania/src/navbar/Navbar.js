@@ -4,9 +4,6 @@ import { NavLink } from "react-router-dom";
 import { IoClose, IoMenu } from "react-icons/io5";
 import "./Navbar.css";
 
-import logo from '../media/logo_white.svg';
-const APP_NAME = "GerMánia";
-
 const Navbar = () => {
  const [showMenu, setShowMenu] = useState(false);
 
@@ -38,13 +35,13 @@ const Navbar = () => {
              </NavLink>
            </li>
            <li className="nav__item">
-             <NavLink to="/Rolam" className="nav__link"  onClick={closeMenuOnMobile}>
+             <NavLink to="/rolam" className="nav__link"  onClick={closeMenuOnMobile}>
                Rólam
              </NavLink>
            </li>
            <li className="nav__item">
              <NavLink
-               to="/Arak"
+               to="/arak"
                className="nav__link"
                 onClick={closeMenuOnMobile}
              >
@@ -53,7 +50,7 @@ const Navbar = () => {
            </li>
            <li className="nav__item">
              <NavLink
-               to="/Kapcsolat"
+               to="/kapcsolat"
                className="nav__link"
                 onClick={closeMenuOnMobile}
              >

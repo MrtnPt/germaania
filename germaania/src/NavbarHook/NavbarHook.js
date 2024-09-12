@@ -65,7 +65,7 @@ const NavbarHook = () => {
     <header className="header">
       <nav className="nav container">
         <NavLink to="/" className="nav__logo">
-          Menü
+          GerMánia
         </NavLink>
 
         {isMobile && (
