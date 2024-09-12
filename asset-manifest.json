@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/germaania/static/css/main.8893cb30.css",
-    "main.js": "/germaania/static/js/main.24fa3f9a.js",
+    "main.css": "/germaania/static/css/main.f5f589bc.css",
+    "main.js": "/germaania/static/js/main.201bdcad.js",
     "static/js/453.e66bc745.chunk.js": "/germaania/static/js/453.e66bc745.chunk.js",
-    "static/media/logo_white.svg": "/germaania/static/media/logo_white.63151abc5f62da8751b08c82fd1d4ede.svg",
+    "static/media/logo_colored.svg": "/germaania/static/media/logo_colored.32c1c939db9cfb56ccd3d02c7b4bf567.svg",
     "index.html": "/germaania/index.html",
-    "main.8893cb30.css.map": "/germaania/static/css/main.8893cb30.css.map",
-    "main.24fa3f9a.js.map": "/germaania/static/js/main.24fa3f9a.js.map",
+    "main.f5f589bc.css.map": "/germaania/static/css/main.f5f589bc.css.map",
+    "main.201bdcad.js.map": "/germaania/static/js/main.201bdcad.js.map",
     "453.e66bc745.chunk.js.map": "/germaania/static/js/453.e66bc745.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8893cb30.css",
-    "static/js/main.24fa3f9a.js"
+    "static/css/main.f5f589bc.css",
+    "static/js/main.201bdcad.js"
   ]
 }
