@@ -1,14 +1,18 @@
 import logo from '../media/logo_colored.svg';
-const APP_NAME = "GerMánia";
-
+import './Heading.css'
 const Heading = () => {
     return (
-        <div className='col-12'>
-            <figure class="col-md-12 col-lg-3 col-xl-2">
-                <img class="img-fluid" src={logo} alt="Logo"></img>
-                <figcaption class="invisible">Weboldal logó</figcaption>
-            </figure>
-            <h1>{APP_NAME}</h1>
+        <div id="header-container" class="row space-around">
+            <div id="branding" class="col-xl-4 col-lg-5 col-md-6 col-sx-12">
+                <figure>
+                    <img src={logo} alt="Logo"></img>
+                    <figcaption class="invisible">Weboldal logó</figcaption>
+                </figure>
+                <h1>{window.BRAND_FULL_NAME}</h1>
+            </div>
+            <div id="slogan" class="flex-center col-xl-4 col-lg-5 col-md-6 col-xs-12">
+                <h2 class="initiale">{window.BRAND_SLOGAN}</h2>
+            </div>
         </div>
     )
 };

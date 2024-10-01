@@ -1,0 +1,37 @@
+#header-container {
+    display: flex;
+}
+
+#header-container.space-around {
+    justify-content: space-around;
+}
+
+#branding #slogan {
+    text-align: center;
+}
+
+#branding {
+    padding: 1rem;
+    font-size: medium;
+    
+}
+
+#branding img {
+    width: 9rem;
+}
+
+#branding h1 {
+    font-weight: lighter;
+}
+
+#slogan>h2 {
+    font-weight:normal;
+    color: var(--title-color);
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    /* height: 200px; Adjust height as needed */
+}
