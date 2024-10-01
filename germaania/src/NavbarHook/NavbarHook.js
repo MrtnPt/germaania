@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { IoClose, IoMenu } from "react-icons/io5";
+import { IoClose, IoMenu, IoHomeSharp, IoPersonSharp, IoPricetagsSharp, IoInformationCircleSharp } from "react-icons/io5";
 import { useMediaQuery } from "react-responsive";
 import "./NavbarHook.css";
 
@@ -23,50 +23,39 @@ const NavbarHook = () => {
     const linkClassName = "nav__link";
 
     return (
-      <div class='header'>
-        <ul className={listClassName}>
-          <li>
-            <NavLink to="/" className={linkClassName} onClick={closeMobileMenu}>
-              Kezdőlap
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/rolam"
-              className={linkClassName}
-              onClick={closeMobileMenu}
-            >
-              Rólam
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/arak"
-              className={linkClassName}
-              onClick={closeMobileMenu}
-            >
-              Árak
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/kapcsolat"
-              className={linkClassName}
-              onClick={closeMobileMenu}
-            >
-              Kapcsolat
-            </NavLink>
-          </li>
-        </ul>
+      <div id='navbar' class='navbar'>
+        <div className={listClassName}>
+          <NavLink to="/" className={linkClassName} onClick={closeMobileMenu}>
+            <IoHomeSharp /> Kezdőlap
+          </NavLink>
+          <NavLink
+            to="/rolam"
+            className={linkClassName}
+            onClick={closeMobileMenu}
+          >
+            <IoPersonSharp /> Rólam
+          </NavLink>
+          <NavLink
+            to="/arak"
+            className={linkClassName}
+            onClick={closeMobileMenu}
+          >
+            <IoPricetagsSharp /> Árak
+          </NavLink>
+          <NavLink
+            to="/kapcsolat"
+            className={linkClassName}
+            onClick={closeMobileMenu}
+          >
+            <IoInformationCircleSharp /> Kapcsolat
+          </NavLink>
+        </div>
       </div>
     );
   };
 
   return (
-    <nav className="nav container">
-      <NavLink to="/" className="nav__logo">
-        {window.BRAND_FULL_NAME}
-      </NavLink>
+    <nav className="row nav">
 
       {isMobile && (
         <div className="nav__toggle" id="nav-toggle" onClick={toggleMenu}>

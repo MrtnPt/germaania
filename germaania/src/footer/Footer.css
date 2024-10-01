@@ -1,0 +1,22 @@
+#footer-container {
+    display: flex;
+    background-color: var(--text-color);
+    color: var(--second-color);
+    padding: 2rem 0;
+    font-size: 1rem;
+}
+
+#footer-container.space-around {
+    justify-content: space-around;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--second-color);
+    text-align: left;
+    margin: 0 3rem;
+}
+
+footer a:hover {
+    color: var(--body-color);
+}

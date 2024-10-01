@@ -9,15 +9,16 @@
 }
 
 :root {
-    --header-height: 3.5rem;
+    --header-height: 4rem;
     --first-color: #503D2F;
     --title-color: #98494C;
     --text-color: #00171F;
     --body-color: #D7D8DB;
+    --header-bg-color: #503d2fa9;
     --second-color: #E3C25E;
     --body-font: "Montserrat", sans-serif;
     --second-font: "Playball", cursive;
-    --h2-font-size: 1.25rem;
+    --h2-font-size: 1.5rem;
     --small-font-size: 0.813rem;
     --font-semi-bold: 600;
     --z-tooltip: 10;
@@ -35,10 +36,6 @@ body {
     font-family: var(--body-font);
     font-size: 1.2rem;
 }
-
-/* ul {
- list-style: none;
-} */
 
 a {
     text-decoration: none;
@@ -62,14 +59,45 @@ article {
     padding: 2rem;
 }
 
+article p {
+    margin-bottom: 1rem;
+}
+
 .img-fluid {
     width: 95%;
-    margin: 1rem;
 }
 
 .initiale {
     font-family: var(--second-font);
+    font-size: xx-large;
+    margin-bottom: 2rem;
 }
+
+main .initiale {
+    color: var(--title-color);
+}
+
+main {
+    padding: 1.5rem;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+ul#checklist {
+    list-style: none;
+}
+
+li>svg {
+    color: var(--title-color);
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    /* height: 200px; Adjust height as needed */
+}
+
 
 /* Default: Extra-small devices such as small phones (less than 768px) */
 

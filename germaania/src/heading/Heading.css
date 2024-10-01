@@ -1,5 +1,8 @@
 #header-container {
     display: flex;
+    background-color: var(--header-bg-color);
+    color: var(--second-color);
+    border-radius: 0.5rem 0.5rem 0 0;
 }
 
 #header-container.space-around {
@@ -13,7 +16,6 @@
 #branding {
     padding: 1rem;
     font-size: medium;
-    
 }
 
 #branding img {
@@ -26,12 +28,5 @@
 
 #slogan>h2 {
     font-weight:normal;
-    color: var(--title-color);
 }
 
-.flex-center {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    /* height: 200px; Adjust height as needed */
-}

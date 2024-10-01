@@ -10,6 +10,7 @@ import Home from "./pages/Kezdolap";
 import AboutMe from "./pages/Rolam";
 import Prices from "./pages/Arak";
 import Contact from "./pages/Kapcsolat";
+import Footer from "./footer/Footer";
 
 window.BRAND_FULL_NAME = 'GerMánia';
 window.BRAND_SLOGAN = 'eredményesen németül';
@@ -33,7 +34,9 @@ const App = () => {
               <Route path="/kapcsolat" element={<Contact />} />
             </Routes>
         </main>
-
+        <footer className="row">
+          <Footer />
+        </footer>
       </Router>
     </div>
   );
