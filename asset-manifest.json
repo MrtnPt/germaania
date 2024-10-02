@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/germaania/static/css/main.6872e963.css",
-    "main.js": "/germaania/static/js/main.596e8823.js",
+    "main.css": "/germaania/static/css/main.440aaa3f.css",
+    "main.js": "/germaania/static/js/main.8a51e119.js",
     "static/js/453.e66bc745.chunk.js": "/germaania/static/js/453.e66bc745.chunk.js",
     "static/media/jo_helyen_l.jpg": "/germaania/static/media/jo_helyen_l.b297fba289756e9c36df.jpg",
+    "static/media/tanit_p.jpg": "/germaania/static/media/tanit_p.946c122ed7f254640c64.jpg",
     "static/media/logo_colored.svg": "/germaania/static/media/logo_colored.32c1c939db9cfb56ccd3d02c7b4bf567.svg",
     "index.html": "/germaania/index.html",
-    "main.6872e963.css.map": "/germaania/static/css/main.6872e963.css.map",
-    "main.596e8823.js.map": "/germaania/static/js/main.596e8823.js.map",
+    "main.440aaa3f.css.map": "/germaania/static/css/main.440aaa3f.css.map",
+    "main.8a51e119.js.map": "/germaania/static/js/main.8a51e119.js.map",
     "453.e66bc745.chunk.js.map": "/germaania/static/js/453.e66bc745.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6872e963.css",
-    "static/js/main.596e8823.js"
+    "static/css/main.440aaa3f.css",
+    "static/js/main.8a51e119.js"
   ]
 }
