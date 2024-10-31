@@ -18,7 +18,7 @@ window.BRAND_SLOGAN = 'eredményesen németül';
 
 const App = () => {
   return (
-    <div class="center-align col-xl-8 col-lg-10 col-md-12">
+    <div className="center-align col-xl-8 col-lg-10 col-md-12">
       <Router basename='/germaania'>
         <div className="row">
             <header  className='col-12'>

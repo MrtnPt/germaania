@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { IoClose, IoMenu, IoHomeSharp, IoPersonSharp, IoPricetagsSharp, IoInformationCircleSharp } from "react-icons/io5";
+import { IconContext } from 'react-icons';
 import { useMediaQuery } from "react-responsive";
 import "./NavbarHook.css";
 
@@ -23,31 +24,40 @@ const NavbarHook = () => {
     const linkClassName = "nav__link";
 
     return (
-      <div id='navbar' class='navbar'>
+      <div id='navbar' className='navbar'>
         <div className={listClassName}>
           <NavLink to="/" className={linkClassName} onClick={closeMobileMenu}>
-            <IoHomeSharp /> Kezdőlap
+            <IconContext.Provider value={{ className: "react-icons" }}>
+              <IoHomeSharp />
+            </IconContext.Provider> Kezdőlap
           </NavLink>
           <NavLink
             to="/rolam"
             className={linkClassName}
             onClick={closeMobileMenu}
           >
-            <IoPersonSharp /> Rólam
+            <IconContext.Provider value={{ className: "react-icons" }}>
+              <IoPersonSharp />
+            </IconContext.Provider> Rólam
           </NavLink>
           <NavLink
             to="/arak"
             className={linkClassName}
             onClick={closeMobileMenu}
           >
-            <IoPricetagsSharp /> Árak
+            <IconContext.Provider value={{ className: "react-icons" }}>
+              <IoPricetagsSharp />
+            </IconContext.Provider> Árak
           </NavLink>
+
           <NavLink
             to="/kapcsolat"
             className={linkClassName}
             onClick={closeMobileMenu}
           >
-            <IoInformationCircleSharp /> Kapcsolat
+            <IconContext.Provider value={{ className: "react-icons" }}>
+              <IoInformationCircleSharp />
+            </IconContext.Provider> Kapcsolat
           </NavLink>
         </div>
       </div>

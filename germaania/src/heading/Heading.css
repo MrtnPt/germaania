@@ -1,6 +1,10 @@
 #header-container {
-    display: flex;
-    background-color: var(--header-bg-color);
+    display: flex;    
+    background-color: linear-gradient(rgba(80, 61, 47, 0.3), rgba(80, 61, 47, 0.8));
+    background-position: center;
+    overflow: hidden;
+    background-size: cover;
+
     color: var(--second-color);
     border-radius: 0.5rem 0.5rem 0 0;
 }
@@ -13,20 +17,27 @@
     text-align: center;
 }
 
+#slogan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #branding {
     padding: 1rem;
     font-size: medium;
 }
 
 #branding img {
-    width: 9rem;
+    width: 12rem;
 }
 
-#branding h1 {
+#slogan h1 {
+    color: var(--second-color);
     font-weight: lighter;
 }
 
-#slogan>h2 {
+#slogan h2 {
     font-weight:normal;
 }
 
