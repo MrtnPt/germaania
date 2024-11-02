@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/germaania/static/css/main.504662b7.css",
-    "main.js": "/germaania/static/js/main.94e93efd.js",
+    "main.js": "/germaania/static/js/main.34409f44.js",
     "static/js/453.e66bc745.chunk.js": "/germaania/static/js/453.e66bc745.chunk.js",
     "static/media/tanit_p.jpg": "/germaania/static/media/tanit_p.946c122ed7f254640c64.jpg",
     "static/media/tanit_l.jpg": "/germaania/static/media/tanit_l.08f3958c873edad641aa.jpg",
@@ -10,14 +10,14 @@
     "static/media/GerMániaÁSZF.pdf": "/germaania/static/media/GerMániaÁSZF.5d59809a7fb35a06ebfc.pdf",
     "static/media/cover2.jpg": "/germaania/static/media/cover2.bf1e1b5df70df583bacd.jpg",
     "static/media/cover3.jpg": "/germaania/static/media/cover3.5672bdeba3b84ad3176e.jpg",
-    "static/media/logo_colored.svg": "/germaania/static/media/logo_colored.44691880abbb0a7afaee47dda82e8a7e.svg",
+    "static/media/logo_colored.svg": "/germaania/static/media/logo_colored.404dbdd6635688ba97877c57714a8737.svg",
     "index.html": "/germaania/index.html",
     "main.504662b7.css.map": "/germaania/static/css/main.504662b7.css.map",
-    "main.94e93efd.js.map": "/germaania/static/js/main.94e93efd.js.map",
+    "main.34409f44.js.map": "/germaania/static/js/main.34409f44.js.map",
     "453.e66bc745.chunk.js.map": "/germaania/static/js/453.e66bc745.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.504662b7.css",
-    "static/js/main.94e93efd.js"
+    "static/js/main.34409f44.js"
   ]
 }
