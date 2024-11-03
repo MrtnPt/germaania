@@ -1,48 +1,61 @@
-.center-align {
-  margin: auto;
-}
-
-/* .main-content {
-  padding-top: 5rem;
-  padding-left: 1rem;
-} */
-
-/* .App {
-  text-align: center;
-} */
-
-/* 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-     animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wrapper {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+main{
+  flex-grow:1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+main a {
+  color: var(--title-color);
+  text-decoration: underline;
+  padding:0.2rem;
+}
+
+main a:hover {
+  text-decoration: none;
+  background-color: var(--second-color);
+  border-radius: 0.2rem;
+}
+
+form{
+  border: 3px solid var(--title-color);
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+form input, textarea {
+  display: block;
+  border: none;
+  background: none;
+  border-bottom: 2px solid var(--title-color);
+  height: 2rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+form input:active, input:focus, textarea:active, textarea:focus {
+  outline: none;
+}
+
+form textarea {
+  height: 4rem;
+  resize: vertical;
+}
+
+form fieldset {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+form input[type="radio"]:checked+label {
+  color: var(--title-color);
+}

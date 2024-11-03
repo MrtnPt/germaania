@@ -4,7 +4,7 @@
     background-position: center;
     overflow: hidden;
     background-size: cover;
-
+    
     color: var(--second-color);
     border-radius: 0.5rem 0.5rem 0 0;
 }
@@ -29,7 +29,7 @@
 }
 
 #branding img {
-    width: 12rem;
+    width: 10rem;
 }
 
 #slogan h1 {

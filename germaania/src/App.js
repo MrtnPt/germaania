@@ -18,27 +18,27 @@ window.BRAND_SLOGAN = 'eredményesen németül';
 
 const App = () => {
   return (
-    <div className="center-align col-xl-8 col-lg-10 col-md-12">
-      <Router basename='/germaania'>
-        <div className="row">
-            <header  className='col-12'>
+      <div className="wrapper col-xl-8 col-lg-10 col-md-12">
+        <Router basename='/germaania'>
+          <div className="row">
+            <header className='col-12'>
               <Heading />
               <NavbarHook />
             </header>
-        </div>
-        <main className="row">
+          </div>
+          <main className="row">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/rolam" element={<AboutMe />} />
               <Route path="/arak" element={<Prices />} />
               <Route path="/kapcsolat" element={<Contact />} />
             </Routes>
-        </main>
-        <footer className="row">
-          <Footer />
-        </footer>
-      </Router>
-    </div>
+          </main>
+          <footer className="row">
+            <Footer />
+          </footer>
+        </Router>
+      </div>
   );
 }
 

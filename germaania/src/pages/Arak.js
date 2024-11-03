@@ -3,6 +3,7 @@ import React from "react";
 const Prices = () => {
   return (
     <article>
+      <h1 className="initiale">Árak</h1>
       <p> Egyéni és csoportos óráim közül tudsz választani. Az oktatás online formában történik. Egy nyelvóra 45 perc időtartamot jelent. A nyelvórán az előzetesen felmért szintnek megfelelő könyvből és a hozzá tartozó munkafüzetből fogunk haladni.</p>
       <p>Az első óránk előtt körülbelül 2 héttel, a bevezető órán (kb. 25-30 perc) felmérem, hogy milyen szintről indulunk. A szintfelméréssel egybekötött konzultáció díja ingyenes. Teljesen kezdők esetében természetesen a szintfelmérés elmarad, esetükben csak a konzultációra kerül sor.</p>
 
