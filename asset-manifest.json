@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/germaania/static/css/main.18f10849.css",
-    "main.js": "/germaania/static/js/main.c6b9f203.js",
+    "main.js": "/germaania/static/js/main.c5eb6c9e.js",
     "static/js/453.e66bc745.chunk.js": "/germaania/static/js/453.e66bc745.chunk.js",
     "static/media/tanit_p.jpg": "/germaania/static/media/tanit_p.bf13e2fb91d028749c4d.jpg",
     "static/media/tanit_l.jpg": "/germaania/static/media/tanit_l.80f263946b2299a40f85.jpg",
@@ -13,11 +13,11 @@
     "static/media/logo_colored.svg": "/germaania/static/media/logo_colored.404dbdd6635688ba97877c57714a8737.svg",
     "index.html": "/germaania/index.html",
     "main.18f10849.css.map": "/germaania/static/css/main.18f10849.css.map",
-    "main.c6b9f203.js.map": "/germaania/static/js/main.c6b9f203.js.map",
+    "main.c5eb6c9e.js.map": "/germaania/static/js/main.c5eb6c9e.js.map",
     "453.e66bc745.chunk.js.map": "/germaania/static/js/453.e66bc745.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.18f10849.css",
-    "static/js/main.c6b9f203.js"
+    "static/js/main.c5eb6c9e.js"
   ]
 }
