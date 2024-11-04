@@ -1,6 +1,8 @@
 import React from "react";
 import TanitPrt from '../media/images/tanit_p.jpg';
 
+import Reviews from '../review/Reviews';
+
 const AboutMe = () => {
   return (
     <article>
@@ -14,6 +16,8 @@ const AboutMe = () => {
       <p>Tanulmányaim végzése közben elkezdtem a váci Deutsch Haus nyelviskolában tanítani, ahol rengeteg tapasztalatot szereztem a felnőttképzés területén. Sikeresen vezettem mind kezdő, mind közép-, és felsőfokú nyelvvizsgára felkészítő tanfolyamokat.</p>
       <p>A nyelviskolai tanítás után 12 évig a Váci Madách Imre Gimnáziumban oktattam német nyelvet, tanulásmódszertant, illetve 2 éven át kezdő hatha jógaórákat is vezettem.</p>
       <p>Augusztustól pedig vállalkozóként segítek a hozzám fordulóknak eligazodni és magabiztosabbá válni a német nyelv használatában.</p>
+      <h1 className="initiale">Rólam írták</h1>
+      < Reviews />
     </article>
   );
 };

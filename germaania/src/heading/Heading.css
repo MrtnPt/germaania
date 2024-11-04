@@ -6,7 +6,6 @@
     background-size: cover;
     
     color: var(--second-color);
-    border-radius: 0.5rem 0.5rem 0 0;
 }
 
 #header-container.space-around {

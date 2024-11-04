@@ -12,13 +12,13 @@ const Heading = () => {
 
     return (
         <div id="header-container" className="row space-around"  style={{ backgroundImage: `linear-gradient(rgba(80, 61, 47, 0.3), rgba(80, 61, 47, 0.8)), url(${selectedCover})`}} >
-            <div id="branding" className="col-xl-4 col-lg-5 col-md-6 col-2">
+            <div id="branding" className="col-md-6 col-4">
                 <figure>
                     <img src={logo} alt="Logo"></img>
                     <figcaption className="invisible">Weboldal logó</figcaption>
                 </figure>
             </div>
-            <div id="slogan" className="flex-center col-xl-4 col-lg-5 col-md-6 col-10">
+            <div id="slogan" className="flex-center col-md-6 col-8">
                 <h1>{window.BRAND_FULL_NAME}</h1>
                 <h2 className="initiale">{window.BRAND_SLOGAN}</h2>
             </div>
