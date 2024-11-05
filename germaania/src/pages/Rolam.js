@@ -17,7 +17,9 @@ const AboutMe = () => {
       <p>A nyelviskolai tanítás után 12 évig a Váci Madách Imre Gimnáziumban oktattam német nyelvet, tanulásmódszertant, illetve 2 éven át kezdő hatha jógaórákat is vezettem.</p>
       <p>Augusztustól pedig vállalkozóként segítek a hozzám fordulóknak eligazodni és magabiztosabbá válni a német nyelv használatában.</p>
       <h1 className="initiale">Rólam írták</h1>
-      < Reviews />
+      <div className="review_container">
+        < Reviews />
+      </div>
     </article>
   );
 };
