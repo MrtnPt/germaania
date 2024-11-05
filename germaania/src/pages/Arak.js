@@ -1,5 +1,5 @@
 import React from "react";
-import { IoPricetag } from "react-icons/io5";
+import { IoPricetagOutline  } from "react-icons/io5";
 const Prices = () => {
   return (
     <article>
@@ -15,10 +15,10 @@ const Prices = () => {
             <p>Egyéni órák <span className="bold">heti 2 alkalommal, 45 perces</span> bontásban zajlanak.</p>
             <h4>Kedvezményes csomagok:</h4> 
             <ul>
-              <li><IoPricetag />
+              <li><IoPricetagOutline  />
                 10 órás (10x45perc) óracsomag, 10% kedvezménnyel: 71.000,-Ft <span className="italic">(felhasználható 6 hétig)</span>
               </li>
-              <li><IoPricetag />
+              <li><IoPricetagOutline  />
                 20 órás (20x45 perc) óracsomag, 15% kedvezménnyel: 134.300,-Ft <span className="italic">(felhasználható 11 hétig)</span>
               </li>
             </ul>
@@ -32,7 +32,7 @@ const Prices = () => {
             <p>40 órás (20x90 perc) óracsomag: 200.000,-Ft / fő <span className="italic">(felhasználható 10 hétig)</span></p>
             <p>Páros órák <span className="bold">heti 2 alkalommal, 90 percben</span> valósulnak meg.</p>
             <h4>Kedvezmény:</h4>
-            <ul><li><IoPricetag />
+            <ul><li><IoPricetagOutline  />
             <span className="italic">egy összegben történő kifizetésekor</span> 10% kedvezménnyel 180.000,-Ft / fő
             </li></ul> 
             <p className="italic">Páros órák esetén a kifizetés történhet két részletben.</p>
@@ -45,7 +45,7 @@ const Prices = () => {
             <p>Csoportos órák kis létszámban (2-5 fővel) valósulnak meg <span className="bold">heti 2 alkalommal 90 percben</span>.</p>
             <h4>Kedvezmény:</h4>
             <ul>
-              <li><IoPricetag />
+              <li><IoPricetagOutline  />
               <span className="italic">egy összegben történő kifizetésekor</span> 10% kedvezménnyel 162.000,-Ft / fő</li>
            </ul>
             <p className="italic">Csoportos órák esetén a kifizetés történhet két részletben.</p>

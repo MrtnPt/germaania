@@ -1,7 +1,7 @@
 import React from "react";
 import "./Reviews.css";
 import REVIEWDATA from "./reviews-data.js";
-import { FaQuoteRight } from "react-icons/fa";
+import { RiChatQuoteLine } from "react-icons/ri";
 
 function getDateDiff(dateStr) {
     const today = new Date();
@@ -21,7 +21,7 @@ function getDateDiff(dateStr) {
 const ReviewCard = ({ name, date, review }) => (
     <div className="review">
         <div className="reviewHeader">
-            <FaQuoteRight />
+            <RiChatQuoteLine  />
             <h3>{name}</h3>
             <p>{getDateDiff(date)}</p>
         </div>

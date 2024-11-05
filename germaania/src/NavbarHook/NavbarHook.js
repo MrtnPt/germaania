@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { IoClose, IoMenu, IoHomeSharp, IoPersonSharp, IoPricetagsSharp, IoInformationCircleSharp } from "react-icons/io5";
+import { IoCloseOutline, IoMenuOutline , IoHomeOutline , IoPersonOutline, IoPricetagsOutline, IoInformationCircleOutline } from "react-icons/io5";
 import { IconContext } from 'react-icons';
 import { useMediaQuery } from "react-responsive";
 import "./NavbarHook.css";
@@ -28,7 +28,7 @@ const NavbarHook = () => {
         <div className={listClassName}>
           <NavLink to="/" className={linkClassName} onClick={closeMobileMenu}>
             <IconContext.Provider value={{ className: "react-icons" }}>
-              <IoHomeSharp />
+              <IoHomeOutline  />
             </IconContext.Provider> Kezdőlap
           </NavLink>
           <NavLink
@@ -37,7 +37,7 @@ const NavbarHook = () => {
             onClick={closeMobileMenu}
           >
             <IconContext.Provider value={{ className: "react-icons" }}>
-              <IoPersonSharp />
+              <IoPersonOutline />
             </IconContext.Provider> Rólam
           </NavLink>
           <NavLink
@@ -46,7 +46,7 @@ const NavbarHook = () => {
             onClick={closeMobileMenu}
           >
             <IconContext.Provider value={{ className: "react-icons" }}>
-              <IoPricetagsSharp />
+              <IoPricetagsOutline />
             </IconContext.Provider> Árak
           </NavLink>
 
@@ -56,7 +56,7 @@ const NavbarHook = () => {
             onClick={closeMobileMenu}
           >
             <IconContext.Provider value={{ className: "react-icons" }}>
-              <IoInformationCircleSharp />
+              <IoInformationCircleOutline />
             </IconContext.Provider> Kapcsolat
           </NavLink>
         </div>
@@ -69,7 +69,7 @@ const NavbarHook = () => {
 
       {isMobile && (
         <div className="nav__toggle" id="nav-toggle" onClick={toggleMenu}>
-          <IoMenu />
+          <IoMenuOutline  /> Menü
         </div>
       )}
 
@@ -80,7 +80,7 @@ const NavbarHook = () => {
         >
           {renderNavLinks()}
           <div className="nav__close" id="nav-close" onClick={toggleMenu}>
-            <IoClose />
+            <IoCloseOutline />
           </div>
         </div>
       ) : (

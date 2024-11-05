@@ -59,7 +59,7 @@ const Navbar = () => {
            </li>
          </ul>
          <div className="nav__close" id="nav-close" onClick={toggleMenu}>
-           <IoClose />
+           <IoCloseOutline />
          </div>
        </div>
 

@@ -1,21 +1,16 @@
-.review_container{
-
-}
-
 .review{
     background-color: var(--text-color);
     color: var(--body-color);
     padding: 1.5rem;
     margin: 1rem auto;
     border-radius: 0.5rem;
-    width: 50%;
+    width: 70%;
 }
 
 .reviewHeader{
     margin-right: 1rem;
     display: flex;
     flex-direction: row;
-    align-items:last baseline;
     justify-content: space-between;
     color: var(--second-color);
 }
@@ -27,12 +22,18 @@
 }
 
 .review svg {
-    width: 3rem;
-    height: 3rem;
+    font-size: 3rem;
     color: var(--body-color);
     opacity: 30%;
+    transform: translateY(-0.5rem);
 }
 .review div{
     font-size: 1rem;
     line-height: 1.2rem;
+}
+
+@media screen and (max-width: 992px) {
+    .review{
+        width: 90%;
+    }
 }

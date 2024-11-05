@@ -34,7 +34,7 @@ const App = () => {
               <Route path="/kapcsolat" element={<Contact />} />
             </Routes>
           </main>
-          <footer className="row">
+          <footer>
             <Footer />
           </footer>
         </Router>
