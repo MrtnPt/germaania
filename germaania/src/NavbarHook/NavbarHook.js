@@ -41,13 +41,13 @@ const NavbarHook = () => {
             </IconContext.Provider> Rólam
           </NavLink>
           <NavLink
-            to="/arak"
+            to="/szolgaltatasok"
             className={linkClassName}
             onClick={closeMobileMenu}
           >
             <IconContext.Provider value={{ className: "react-icons" }}>
               <IoPricetagsOutline />
-            </IconContext.Provider> Árak
+            </IconContext.Provider> Szolgáltatások
           </NavLink>
 
           <NavLink

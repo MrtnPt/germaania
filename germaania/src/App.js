@@ -8,12 +8,12 @@ import Heading from "./heading/Heading";
 // PAGES
 import Home from "./pages/Kezdolap";
 import AboutMe from "./pages/Rolam";
-import Prices from "./pages/Arak";
+import Services from "./pages/Szolgaltatasok";
 import Contact from "./pages/Kapcsolat";
 import Footer from "./footer/Footer";
 
 window.BRAND_FULL_NAME = 'GerMánia';
-window.BRAND_SLOGAN = 'eredményesen németül';
+window.BRAND_SLOGAN = 'könnyedén németül';
 
 
 const App = () => {
@@ -30,7 +30,7 @@ const App = () => {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/rolam" element={<AboutMe />} />
-              <Route path="/arak" element={<Prices />} />
+              <Route path="/szolgaltatasok" element={<Services />} />
               <Route path="/kapcsolat" element={<Contact />} />
             </Routes>
           </main>

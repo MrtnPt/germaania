@@ -19,7 +19,7 @@ function getDateDiff(dateStr) {
 }
 
 const ReviewCard = ({ name, date, review }) => (
-    <div className="review">
+    <div className="carousel-item review">
         <div className="reviewHeader">
             <RiChatQuoteLine  />
             <h3>{name}</h3>
@@ -31,7 +31,7 @@ const ReviewCard = ({ name, date, review }) => (
 
 const Reviews = () => {
     return (
-        <div>
+        <>
             {REVIEWDATA.map((review, index) => (
                 <ReviewCard
                     key={index}
@@ -40,7 +40,7 @@ const Reviews = () => {
                     review={review.review}
                 />
             ))}
-        </div>
+        </>
     );
 };
 

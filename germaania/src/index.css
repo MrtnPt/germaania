@@ -12,9 +12,9 @@
 
 :root {
     --header-height: 3rem;
-    --first-color: rgb(80, 61, 47);
+    --first-color: #503d2f;
     --title-color: #98494C;
-    --text-color: rgb(0, 23, 31);
+    --text-color: #00171f;
     --body-color: #D7D8DB;
     --header-bg-color: #99908c;
     --second-color: #E3C25E;
@@ -35,7 +35,7 @@ body {
     background-color: var(--body-color);
     color: var(--text-color);
     font-family: var(--body-font);
-    font-size: 18pt;
+    font-size: 14pt;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -76,13 +76,14 @@ article ul {
 
 main .initiale {
     color: var(--title-color);
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    font-weight:normal;
 }
 
 main {
-    padding: 1rem;
-    text-align: left;
-    line-height: 2rem;
+    padding: 0.5rem;
+    text-align: justify;
+    line-height: 1.5rem;
 }
 
 ul#checklist {
@@ -165,7 +166,7 @@ li>svg {
 /* Large devices such as laptops (992px and up) */
 @media only screen and (min-width: 992px) {
     .img-fluid {
-        width: 40%;
+        width: 38%;
         float: left;
         margin: 1rem 1rem 1rem 0;
     }
