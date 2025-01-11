@@ -2,7 +2,7 @@ const REVIEWDATA = [
     {
         "name": "Joci",
         "date": "2024-06-01",
-        "review": "<p>100%osan elégedett voltam Niki óráival. Fiatal fejjel tudjuk mind nem egyszerű a tanulás, de az órák mindig jól és pörgősen teltek. Amit az iskolába sajnos sose sikerült nyelvtani dolgok terén megértenem az Nikivel valahogy mégis nagyon gyorsan és egyszerűen ment. Ezeknek az óráknak köszönhetem, hogy sikerült új életet kezdenem Ausztriában. Mindenkinek csak ajánlani tudom, aki egy lelkiismeretes, rugalmas és fiatalos tanítási módszerrel gyorsan szeretné a német nyelvet elsajátítani.</p>"
+        "review": "<p>100%-osan elégedett voltam Niki óráival. Fiatal fejjel tudjuk mind, nem egyszerű a tanulás, de az órák mindig jól és pörgősen teltek. Amit az iskolába sajnos sose sikerült nyelvtani dolgok terén megértenem az Nikivel valahogy mégis nagyon gyorsan és egyszerűen ment. Ezeknek az óráknak köszönhetem, hogy sikerült új életet kezdenem Ausztriában. Mindenkinek csak ajánlani tudom, aki egy lelkiismeretes, rugalmas és fiatalos tanítási módszerrel gyorsan szeretné a német nyelvet elsajátítani.</p>"
     },
     {
         "name": "Ricsi",

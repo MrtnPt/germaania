@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/germaania/static/css/main.7e820bd1.css",
-    "main.js": "/germaania/static/js/main.250cbfd4.js",
+    "main.css": "/germaania/static/css/main.72d319bf.css",
+    "main.js": "/germaania/static/js/main.b21b5165.js",
     "static/js/453.e66bc745.chunk.js": "/germaania/static/js/453.e66bc745.chunk.js",
-    "static/media/tanit_p.jpg": "/germaania/static/media/tanit_p.bf13e2fb91d028749c4d.jpg",
     "static/media/tanit_l.jpg": "/germaania/static/media/tanit_l.80f263946b2299a40f85.jpg",
+    "static/media/tanit_p.jpg": "/germaania/static/media/tanit_p.5745316ec6a14ff59616.jpg",
     "static/media/GerMániaAdatvédelmiNyilatkozat.pdf": "/germaania/static/media/GerMániaAdatvédelmiNyilatkozat.8ed4a2053cc320d5aa24.pdf",
     "static/media/cover1.jpg": "/germaania/static/media/cover1.31e7caaf9e2d6214215b.jpg",
     "static/media/GerMániaÁSZF.pdf": "/germaania/static/media/GerMániaÁSZF.5d59809a7fb35a06ebfc.pdf",
     "static/media/cover2.jpg": "/germaania/static/media/cover2.bf1e1b5df70df583bacd.jpg",
     "static/media/cover3.jpg": "/germaania/static/media/cover3.5672bdeba3b84ad3176e.jpg",
-    "static/media/logo_colored.svg": "/germaania/static/media/logo_colored.0602b9727e363613df19ff23b5d73a12.svg",
+    "static/media/logo_colored.svg": "/germaania/static/media/logo_colored.e646fd99a13dfc05521cd496ce5a66f0.svg",
     "index.html": "/germaania/index.html",
-    "main.7e820bd1.css.map": "/germaania/static/css/main.7e820bd1.css.map",
-    "main.250cbfd4.js.map": "/germaania/static/js/main.250cbfd4.js.map",
+    "main.72d319bf.css.map": "/germaania/static/css/main.72d319bf.css.map",
+    "main.b21b5165.js.map": "/germaania/static/js/main.b21b5165.js.map",
     "453.e66bc745.chunk.js.map": "/germaania/static/js/453.e66bc745.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e820bd1.css",
-    "static/js/main.250cbfd4.js"
+    "static/css/main.72d319bf.css",
+    "static/js/main.b21b5165.js"
   ]
 }

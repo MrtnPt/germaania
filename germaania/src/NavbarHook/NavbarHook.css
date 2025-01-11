@@ -84,6 +84,7 @@
 #navbar a:hover {
   color: var(--body-color);
   background-color: var(--title-color);
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .nav__link svg{

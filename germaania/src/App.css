@@ -5,14 +5,14 @@
   min-height: 100vh;
 }
 
-main{
-  flex-grow:1;
+main {
+  flex-grow: 1;
 }
 
 main a {
   color: var(--title-color);
   text-decoration: underline;
-  padding:0.2rem;
+  padding: 0.2rem;
 }
 
 main a:hover {
@@ -25,14 +25,14 @@ form {
   margin-top: 3rem;
   display: flex;
   flex-direction: column;
-  border: 2px solid var(--first-color);
+  border: 1.5px solid var(--first-color);
   color: var(--text-color);
   border-radius: 0.5rem;
   padding: 1rem;
 }
 
 form input,
-form textarea{
+form textarea {
   background-color: var(--body-color);
   border: 0;
   border-bottom: 1px solid var(--header-bg-color);
@@ -41,7 +41,15 @@ form textarea{
   font-size: large;
 }
 
-textarea{
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: var(--title-color);
+  border-radius: 0.2rem;
+  box-shadow: 0 0 10px var(--title-color);
+}
+
+textarea {
   resize: vertical;
   height: 5rem;
   font-family: var(--body-font);
@@ -61,10 +69,9 @@ form svg {
   color: currentColor;
 }
 
-
 input[type="radio"] {
   appearance: none;
-  margin:0;
+  margin: 0;
   color: currentColor;
   width: 1.2rem;
   height: 1.2rem;
@@ -84,6 +91,7 @@ input[type="radio"]::before {
   /* transition: 120ms transform ease-in-out; */
   box-shadow: inset 1rem 1rem var(--title-color);
 }
+
 input[type="radio"]:checked::before {
   transform: scale(1);
 }
@@ -96,7 +104,7 @@ button {
   margin: 1rem 0 0 0;
 }
 
-button:hover{
+button:hover {
   color: var(--title-color);
   cursor: pointer;
 }
