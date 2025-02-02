@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d3d57088.css",
-    "main.js": "/static/js/main.9b528c2f.js",
+    "main.js": "/static/js/main.35f4becd.js",
     "static/js/453.e66bc745.chunk.js": "/static/js/453.e66bc745.chunk.js",
     "static/media/tanit_l.jpg": "/static/media/tanit_l.80f263946b2299a40f85.jpg",
     "static/media/tanit_p.jpg": "/static/media/tanit_p.5745316ec6a14ff59616.jpg",
@@ -13,11 +13,11 @@
     "static/media/logo_colored.svg": "/static/media/logo_colored.e646fd99a13dfc05521cd496ce5a66f0.svg",
     "index.html": "/index.html",
     "main.d3d57088.css.map": "/static/css/main.d3d57088.css.map",
-    "main.9b528c2f.js.map": "/static/js/main.9b528c2f.js.map",
+    "main.35f4becd.js.map": "/static/js/main.35f4becd.js.map",
     "453.e66bc745.chunk.js.map": "/static/js/453.e66bc745.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d3d57088.css",
-    "static/js/main.9b528c2f.js"
+    "static/js/main.35f4becd.js"
   ]
 }
